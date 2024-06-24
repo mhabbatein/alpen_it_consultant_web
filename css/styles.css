@@ -710,7 +710,7 @@ input[type="checkbox"] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-  color: #141dbf;
+  color: green;
 }
 
 /* Dropdown Menu */
@@ -1889,12 +1889,14 @@ a:hover.back-to-top {
   }
 
   .navbar-custom .nav-item .nav-link {
-    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    border-radius: 0.25rem;
   }
 
   .navbar-custom .nav-item .nav-link:hover,
   .navbar-custom .nav-item .nav-link.active {
-    color: #141dbf;
+    color: white;
+    background-color: #141dbf;
   }
 
   .navbar-custom.top-nav-collapse {
